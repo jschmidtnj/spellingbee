@@ -1,0 +1,31 @@
+{
+  "name": "spellingbee",
+  "version": "0.0.1",
+  "description": "spelling bee game",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./precommit.sh"
+    }
+  },
+  "scripts": {
+    "watch": "cd vscode && npm run watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jschmidtnj/spellingbee.git"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "Joshua Schmidt",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/jschmidtnj/spellingbee/issues"
+  },
+  "homepage": "https://github.com/jschmidtnj/spellingbee#readme"
+}
